@@ -23,4 +23,7 @@ def home(request):
     return render(request, 'homepage/home.html', context)
 
 def about_me(request):
-    return render(request, 'homepage/about.html')
+    context = {
+        'title': 'About Me',
+    }
+    return render(request, 'homepage/about.html', context)
