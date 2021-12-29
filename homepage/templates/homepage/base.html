@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% if title %}
+        <title>Homepage by Django - {{ title }}</title>
+        {% else %}
+        <title>Homepage by Django</title>
+        {% endif %}
+    </head>
+    <body>
+        {% block content %}{% endblock %}
+    </body>
+</html>
