@@ -1,3 +1,3 @@
 # kerem-website
 
-pr trial
+Personal website developed in Python-Django for self-learning purpose
